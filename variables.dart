@@ -7,6 +7,11 @@
     double height = 5.9;
     String name2 = "Alice";
     bool isStudent = true;
+    Object obj = "Hello";  // Can hold any type
+    Object? nullableObj;   // Can hold null
+    dynamic anything = 42; // Can be anything
+    List<int> numbers = [1, 2, 3]; // List that only holds integers
+    List<Object> mixed = [1, "hello", true]; // List that holds any type
 
     // List<T>
     List<int> numbers = [1, 2, 3, 4, 5];
